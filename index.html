@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body class="bgColor">
+     <h1 class="headone">Temperature Converter</h1>    
+     
+<table><tr>
+    <td> 
+        <div class="containerlogo">
+            <img src="C:\Users\Tina\OneDrive\Desktop\model\temp7.png">
+        </div> 
+    </td>
+    <td>     
+<div class="container"><br/><br/><br/>
+    
+    
+    <table>
+        <tr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+               <td>
+               <form>
+               <label class="enterDEGREE">Degree</label><br/><input type="number" placeholder="Enter Temperature" id="input">
+               </form>
+            </td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+               <form>
+               <label class="choose">Type</label><br/>
+               <select name="degree" id="degree" class="choose">
+                
+                <option value="">Choose Unit</option> 
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Celsius">Celcius</option>
+                <option value="Kelvin">Kelvin</option>
+                
+                </select>
+               </form>
+            </td>   
+        </tr> 
+    </table> 
+
+    <form>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="button"><input type="button" id="button" onclick="convert();" value="Convert"></div>
+    </form>
+    <br/><br/><br/>
+    <table>
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></td></td>
+            <td>
+                <label class="result">Result</label><input type="text" placeholder="Converted" id="output" readonly>
+            </td>
+        </tr>
+    </table>   
+    
+   
+</div>
+    </td></tr>
+</table>
+</body>
+</html>

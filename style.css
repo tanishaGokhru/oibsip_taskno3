@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Courgette&family=Gloria+Hallelujah&family=Luckiest+Guy&family=Macondo&family=Monoton&family=Rampart+One&family=Rubik+Moonrocks&family=Rubik+Puddles&family=Rubik+Vinyl&family=Satisfy&family=Sigmar&family=Special+Elite&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+.bgColor{
+    background-color:rosybrown;
+}
+.container{
+    background-color:lavenderblush;
+    width: 500px;
+    height: 500px;
+    border-radius: 80%;
+    box-shadow: 0 0 250px 250px lavenderblush;
+}
+
+.containerlogo{
+  margin: 0 auto;
+  animation-name: test;
+  animation-duration: 3S;
+  animation-fill-mode: forwards;
+  transition: border-radius 0.25s ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes test{
+  0%{
+    transform: translate(-200px);
+  }
+  100%{
+    transform: translate(0px);
+  }
+}
+.containerlogo:hover{
+  border-radius: 100%;
+  animation-iteration-count: infinite;
+}
+
+.logo{
+  height:600px;
+  width: 110px;
+  
+}
+.enterDEGREE{
+  font-size: 30px;
+}
+.result{
+  font-size: 30px;
+}
+
+
+.headone{
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Rubik Vinyl', cursive;
+}
+
+.choose{
+  font-size: 30px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 10%;
+  }
+
+#button {
+    border: 2px solid rosybrown;
+    background-color: rosybrown;
+    color: black;
+    
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 10px;
+    width: 40%;
+  }
+  #button:active {
+    background-color: black;
+    color: lavenderblush;
+    border: 2px solid rosybrown;
+  }
+  #input { 
+    border: 2px solid;
+    border-radius: 0px;
+    padding: 10px;
+  }
+  #output {
+    border: 2px solid;
+    border-radius: 0px;
+    padding: 10px;
+    width: 90%;
+  }
+  .form select {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 3%;
+    font-style: italic;
+  }
